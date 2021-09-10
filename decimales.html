@@ -14,8 +14,8 @@
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import define from "https://api.observablehq.com/d/ed7915b76efbb03c.js?v=3";
 new Runtime().module(define, name => {
-  if (name === "tabla") return new Inspector(document.querySelector("#observablehq-tabla-06c560d6"));
   if (name === "viewof search") return new Inspector(document.querySelector("#observablehq-viewof-search-06c560d6"));
+  if (name === "tabla") return new Inspector(document.querySelector("#observablehq-tabla-06c560d6"));
 });
 </script>  
   
